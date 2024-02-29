@@ -2,32 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.landingPage-bg{
+  background: linear-gradient(107.56deg, #BEADFA 0%, #F3CCF3  100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.scanPage-bg{
+  background: linear-gradient(107.56deg, #7360DF 0%, #ECF2FF 100%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.historyPage-bg{
+  background: linear-gradient(177.08deg, #FAF3F0 2.35%, #7360DF  97.57%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.profilePage-bg{
+  background: linear-gradient(90deg, #C499F3 0%, #F2AFEF 100%);
 }
