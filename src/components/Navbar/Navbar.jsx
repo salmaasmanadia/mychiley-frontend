@@ -190,6 +190,15 @@ const Navbar = () => {
                         </Link>
                         </div>
                     </li>
+                    <li className="text-black">
+                        <div className="flex">
+                        <Link href="/profile">
+                            <div className="font-poppins font-semibold bg-purple-800 hover:bg-white hover:text-purple-800 border-2 hover:border-purple-800 py-1 px-3 rounded-xl text-white mr-2">
+                            profile
+                            </div>
+                        </Link>
+                        </div>
+                    </li>
                     </ul>
                 </div>
                 </div>
