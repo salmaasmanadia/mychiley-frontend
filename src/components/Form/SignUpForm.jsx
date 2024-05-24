@@ -71,7 +71,7 @@ const SignUpForm = () => {
                 onChange={handleChange}
                 className="block bg-white py-2 px-4 border-2 border-blue-medium rounded-xl mb-4"
             ></input>
-            <button onClick={handleSubmit} className="bg-blue-pale py-2 px-4 font-poppins font-bold text-white rounded-lg mr-8 hover:bg-white hover:text-blue-pale border-2 border-white hover:border-blue-medium">
+            <button onClick={handleSubmit} type="submit" className="bg-blue-pale py-2 px-4 font-poppins font-bold text-white rounded-lg mr-8 hover:bg-white hover:text-blue-pale border-2 border-white hover:border-blue-medium">
                 Sign-Up
             </button>
             <Link href="/signin">

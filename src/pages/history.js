@@ -9,7 +9,7 @@ const history = () => {
             <div className="flex w-full h-screen historyPage-bg">
             <div className="w-full">
                 <div className="flex w-screen pb-12 justify-center mt-32 mx-8">
-                <h1 className="text-center font-semibold font-serif-inter text-6xl text-purple-300">
+                <h1 className="text-center font-semibold font-serif-inter text-6xl text-purple-500">
                     Prediction History
                 </h1>
                 </div>
