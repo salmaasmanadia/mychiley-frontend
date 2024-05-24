@@ -27,7 +27,7 @@ const HistoryContainer = () => {
         // bodyFormData.append("email", email);
         const backend_url = process.env.BACKEND_URL
         axios
-        .get("http://mychiley.eastus.cloudapp.azure.com/predict?email=" + email)
+        .get("http://mychiley.eastus.cloudapp.azure.com/prediction?email=" + email)
         .then(function (response) {
             //handle success
             console.log(response);
