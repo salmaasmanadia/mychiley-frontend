@@ -27,7 +27,8 @@ const HistoryContainer = () => {
         // bodyFormData.append("email", email);
         const backend_url = process.env.BACKEND_URL
         axios
-        .get("http://mychiley.eastus.cloudapp.azure.com/prediction?email=" + email)
+        // .get("localhost:5000/prediction?email="+email)
+        .get("http://mychiley.eastus.cloudapp.azure.com/prediction?email=" + email) //ini nanti yang diganti pake API azure
         .then(function (response) {
             //handle success
             console.log(response);
