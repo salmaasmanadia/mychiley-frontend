@@ -51,7 +51,7 @@ const handler = async (req, res) => {
         }
 
     }else{
-        res.status(405).json({error: "Mehod Now Allowed"})
+        res.status(405).json({error: "Method Now Allowed"})
     }
 }
 
