@@ -36,8 +36,8 @@ const UpFileContainer = () => {
         setLoading(true);
         axios({
         method: "post",
-        // url:"localhost:5000/prediction",
-        url: "http://mychiley.eastus.cloudapp.azure.com:5000/prediction", //ini juga nnt diganti
+        url:"localhost:5000/prediction",
+        // url: "http://mychiley.eastus.cloudapp.azure.com:5000/prediction", //ini juga nnt diganti
         data: bodyFormData,
         headers: {
             "Content-Type": "multipart/form-data",
