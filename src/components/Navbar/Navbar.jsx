@@ -75,13 +75,13 @@ const Navbar = () => {
                             </div>
                         </Link>
                         </li>
-                        {/* <li className="text-black">
+                        <li className="text-black">
                         <Link href="/history">
                             <div className="font-poppins font-semibold hover:text-purple-800">
                             History
                             </div>
                         </Link>
-                        </li> */}
+                        </li>
                         <li className="text-black">
                         <div className="flex">
                             <button
@@ -165,13 +165,13 @@ const Navbar = () => {
                         </div>
                         </Link>
                     </li>
-                    {/* <li className="text-black">
+                    <li className="text-black">
                         <Link href="/history">
                         <div className="font-poppins font-semibold hover:text-purple-800">
                             History
                         </div>
                         </Link>
-                    </li> */}
+                    </li>
                     <li className="text-black">
                         <div className="flex">
                         <Link href="/signin">
